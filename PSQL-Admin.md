@@ -1,5 +1,17 @@
 psql --host=localhost --port=5432 --username=postgres --dbname=postgres
 
+\l list all databases
+\c <db-name>   switch to another db
+\dt list db tables
+\d <table-name> describe a table
+\d+ <table-name> more information about a table
+\du lists users and their roles
+\df lists all functions
+\? get all psql commands
+\x
+\! cls
+\q quit
+
 
 git init
 git add *
